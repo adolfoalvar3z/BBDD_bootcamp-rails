@@ -184,3 +184,6 @@ Psicosis	8*/
 
 --Consultar cual es la longitud más grande entre todos los títulos de las películas.
 SELECT MAX(LENGTH(pelicula)) AS longitud_titulo FROM peliculas;-- la longitud mayor es 52
+
+--truncate
+TRUNCATE TABLE peliculas CASCADE;
